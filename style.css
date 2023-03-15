@@ -156,8 +156,9 @@ li > a {
 
 .sign-up > .sign-up-box {
     display: flex;
+    justify-content: space-between;
     border-radius: 10px;
-    padding: 50px 220px 50px 220px;
+    padding: 50px 140px 50px 140px;
     background-color: #3882f6;
 }
 
@@ -171,15 +172,8 @@ li > a {
     font-weight: 900;
 }
 
-.button-container {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-}
-
 .button-container > .button {
-    box-sizing: border-box;
-    border: 2px solid white;
+    border: 2px solid white
 }
 
 .footer {
